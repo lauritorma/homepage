@@ -12,7 +12,7 @@ export default function SimpleContainer() {
       <CssBaseline />
       <Container maxWidth="lg" >
         <div>
-            <div className="homeHeader">Lauri Törmä</div>
+            <div className="homeHeader">Lauri &nbsp; Törmä</div>
             <div className='homeSubheader'>__________________________<br/>
             Business Information Technology Student</div>
             <div className='homeContent'>

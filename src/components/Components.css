@@ -42,3 +42,9 @@
     margin-bottom: 50px;
     font-family: 'Roboto Flex', sans-serif;
 }
+
+.Button{
+    margin: 10;
+    background-color: white;
+    color: secondary;
+}
