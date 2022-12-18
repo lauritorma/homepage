@@ -10,8 +10,9 @@ export default function ContactForm(props) {
 
     const [open, setOpen] = React.useState(false);
     const [entry, setEntry] = React.useState({
-       message: '', name: '', email: '', phone: ''
+       message: '', contactname: '', email: '', phone: ''
     })
+
 
     const handleClickOpen = () => {
         setOpen(true);
@@ -50,10 +51,9 @@ export default function ContactForm(props) {
                         variant="standard"
                     />
                     <TextField
-                       
                         margin="dense"
-                        name="Name"
-                        value={entry.name}
+                        name="contactname"
+                        value={entry.contactname}
                         label="Name"
                         onChange={e => handleInputChange(e)}
                         fullWidth

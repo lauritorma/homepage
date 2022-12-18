@@ -24,7 +24,7 @@ export default function SimpleContainer() {
                 You can also find me in social media,<br/> or contact me through the form below!<br/>
                 
             </div>
-            <ContactForm></ContactForm>
+            
         </div>
        
 
