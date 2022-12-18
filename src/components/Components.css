@@ -1,0 +1,44 @@
+.joku:hover{
+    background-color: blue;
+}
+
+.icons{
+   
+    max-inline-size: 10px;
+}
+
+.containerBox{
+    
+    
+}
+
+
+
+.ja{
+    opacity: 100 !important;
+}
+
+.homeHeader{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 200px;
+    
+    font-family: 'Roboto Flex', sans-serif;
+   
+}
+
+.homeSubheader{
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-bottom: 20px;
+}
+
+.homeContent{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-family: 'Roboto Flex', sans-serif;
+}
