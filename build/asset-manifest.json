@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d30409d.css",
+    "main.js": "/static/js/main.21e91a04.js",
+    "static/js/787.5c39024c.chunk.js": "/static/js/787.5c39024c.chunk.js",
+    "static/media/green-leaves-background.jpg": "/static/media/green-leaves-background.5c15067e5102e0c1397d.jpg",
+    "static/media/kuva.png": "/static/media/kuva.c882e80a04b5d7edc178.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.0d30409d.css.map": "/static/css/main.0d30409d.css.map",
+    "main.21e91a04.js.map": "/static/js/main.21e91a04.js.map",
+    "787.5c39024c.chunk.js.map": "/static/js/787.5c39024c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d30409d.css",
+    "static/js/main.21e91a04.js"
+  ]
+}
