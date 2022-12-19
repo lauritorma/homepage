@@ -75,7 +75,7 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    min-height: fit-content;
+    min-height: 900px;
   }
 }
 
