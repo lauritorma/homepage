@@ -26,7 +26,9 @@ export default function Contact () {
             },
             body: JSON.stringify(entry)
         })
-       
+            .then(res => fetchEntries())
+            .catch(err => console.error(err))
+        
     };
 
 

@@ -27,6 +27,7 @@ export default function ContactForm(props) {
     }
 
     const addEntry = () => {
+        console.log({entry});
         props.saveEntry(entry);
         handleClose();
     }
