@@ -46,5 +46,46 @@
 .Button{
     margin: 10;
     background-color: white;
-    color: secondary;
+    
+}
+
+/**media queries**/
+
+@media (max-width:768px){
+    .homeHeader{
+        color: whitesmoke;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 50px;
+        
+        font-family: 'Roboto Flex', sans-serif;
+    }
+}
+
+@media (max-width:768px){
+    .homeSubheader{
+        color: white;
+        font-family: 'Roboto Flex', sans-serif;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width:768px){
+    .homeContent{
+        color: white;
+        font-size: 19px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: 'Roboto Flex', sans-serif;
+    }
+}
+
+@media (max-width:768px){
+    
+}
+
+@media (max-width:768px){
+    
 }

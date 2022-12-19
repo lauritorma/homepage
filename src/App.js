@@ -13,6 +13,7 @@ import {
 import Contact from './components/Contact';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
+import { height } from '@mui/system';
 
 
 function HomeTab () {
@@ -24,7 +25,7 @@ function HomeTab () {
 
 function App() {
   return (
-    <div className="App"  style={{backgroundImage:`url(${bgImage})`, backgroundSize: 'cover', height:'100vh'}} >
+    <div className="App" >
     <BrowserRouter style={{margin: 50}}>
     <AppBar position="static">
      <Toolbar disableGutters className="toolbar">

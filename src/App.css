@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background-image: url("/src/components/images/green-leaves-background.jpg");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  
 }
 
 .App-logo {
@@ -54,5 +61,21 @@
 
 .toolbar{
   background-color: #282c34;
+}
+
+/**Media queries**/
+
+@media (max-width:768px){
+  .App{
+    background-image: url("/src/components/images/green-leaves-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: fit-content;
+  }
 }
 

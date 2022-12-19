@@ -12,14 +12,14 @@ export default function SimpleContainer() {
       <CssBaseline />
       <Container maxWidth="lg" >
         <div>
-            <div className="homeHeader">Lauri &nbsp; Törmä</div>
+            <div className="homeHeader">Lauri &nbsp;Törmä</div>
             <div className='homeSubheader'>__________________________<br/>
             Business Information Technology Student</div>
             <div className='homeContent'>
             Hi! And welcome to my home site.<br/><br/>
             My name is Lauri and I'm a 22-year old developer from Helsinki Finland,<br/>
             currently studying software development in Haaga-Helia University of Applied Sciences.<br/><br/>
-            Please feel free to explore my portfolio and contact me through contact page!
+            Please feel free to explore my portfolio and contact me through contact page!<br/><br/>
             </div>
         </div>
        
