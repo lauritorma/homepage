@@ -36,7 +36,7 @@ export default function Contact () {
         <div >
             <div className='backdrop'>
                 <SimpleContainerContact></SimpleContainerContact>
-                <ContactForm saveEntry={saveEntry}/>            
+                {/* <ContactForm saveEntry={saveEntry}/>*/}
             </div>
         </div>
     );

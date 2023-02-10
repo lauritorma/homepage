@@ -17,13 +17,17 @@ export default function SimpleContainer() {
             <div className='homeSubheader'>__________________________<br/>
             </div>
             <div className='homeContent'>
-                Phone:<br/>
-                (+358)400492925<br/><br/>
-                Email:<br/>
+                &#128241; Phone<br/>
+                (+358) 40 049 2925<br/><br/>
+                &#128231; Email:<br/>
                 tormalauri9@gmail.com<br/><br/>
-                You can also find me in social media,<br/> or contact me through the form below!<br/>
-                
+                You can also find me in social media:<br/>
             </div>
+            <div className='links'>
+              <a className='link' href="https://www.linkedin.com/in/lauri-torma/"  target="_blank"> &#129309; linkedin</a>
+            </div>
+                
+            
             
         </div>
        

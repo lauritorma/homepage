@@ -1,8 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
-import ResponsiveAppBar from './components/ResponsiveAppBar';
-import bgImage from './components/images/green-leaves-background.jpg';
 import './fonts.css';
 import {
   BrowserRouter,
@@ -23,15 +21,16 @@ function HomeTab () {
 }
 
 
+
 function App() {
   return (
     <div className="App" >
-    <BrowserRouter style={{margin: 50}}>
+    <BrowserRouter className="BrowserRouter">
     <AppBar position="static">
      <Toolbar disableGutters className="toolbar">
       
-    <Link className='routerLink' to="/">Home</Link>{' '}
-    <Link className='routerLink' to="/Contact">Contact</Link>{' '}
+    <Link className='routerLink' to="/">Home &#127968;</Link>{' '}
+    <Link className='routerLink' to="/Contact">Contact &#128235;</Link>{' '}
     </Toolbar>
     </AppBar>
     <Routes>

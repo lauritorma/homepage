@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-image: url("/src/components/images/green-leaves-background.jpg");
+  /* background-image: url("/src/components/images/green-leaves-background.jpg"); */
+  background-color: black;
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
@@ -60,14 +61,19 @@
 }
 
 .toolbar{
-  background-color: #282c34;
+  background-color: #20232b;
+  justify-content: center;
 }
 
+.BrowserRouter{
+  color: wheat;
+}
 /**Media queries**/
 
 @media (max-width:768px){
   .App{
-    background-image: url("/src/components/images/green-leaves-background.jpg");
+    /*background-image: url("/src/components/images/green-leaves-background.jpg"); */
+    background-color: black;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
