@@ -6,7 +6,9 @@ import ContactForm from "./ContactForm";
 
 
 export default function Contact () {
-    const [entries, setEntries] = useState([]);
+
+
+   /*  const [entries, setEntries] = useState([]);
 
     useEffect(() => fetchEntries(), []);
 
@@ -29,7 +31,7 @@ export default function Contact () {
             .then(res => fetchEntries())
             .catch(err => console.error(err))
         
-    };
+    }; */
 
 
     return (

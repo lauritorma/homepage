@@ -7,7 +7,7 @@ import './Components.css';
 import PhotoCarousel from './PhotoCarousel';
 import ContactForm from './ContactForm';
 
-export default function SimpleContainer() {
+export default function SimpleContainerContact() {
   return (
     <React.Fragment>
       <CssBaseline />
